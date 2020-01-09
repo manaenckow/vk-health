@@ -1,0 +1,72 @@
+.Districting {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.Districting_info {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.Districting_name {
+    font-size: 24px;
+    text-align: center;
+}
+.title {
+  font-weight: bold;
+  padding: 5vh 0 2vh 0;
+  font-size: 25px;
+  line-height: 1.2;
+  color: rgb(0, 0, 0);
+}
+
+.subtitle {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 1.2;
+  color: rgb(0, 0, 0);
+}
+.MapsCssAndroid {
+ position: fixed;
+ height: calc(100% - 56px);
+ width: 100%;
+ box-sizing: border-box;
+}
+
+.MapsCssIOS {
+ position: fixed;
+ height: calc(100% - 44px);
+ width: 100%;
+ bottom: 0;
+ padding-bottom: var(--safe-area-inset-bottom);
+ padding-top: var(--safe-area-inset-top);
+ box-sizing: border-box;
+}
+
+.CalendarBlock {
+    display: flex;
+    justify-content: center;
+}
+
+body .p-datepicker table td {
+    padding: 1vw!important;
+}
+
+body .p-datepicker table td > span {
+    padding: 2.5vw!important;
+}
+
+body .p-datepicker table td.p-datepicker-today > span {
+    background-color: var(--button_secondary_background)!important;
+}
+
+body .p-datepicker table td > span.p-highlight {
+    background-color: var(--button_commerce_background)!important;
+}
+
+body .p-datepicker {
+    border: none!important;
+}

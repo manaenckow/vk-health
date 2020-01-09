@@ -1,0 +1,232 @@
+:global(.transparentBody) {
+    background: transparent;
+    box-shadow: none;
+    border: none;
+}
+:global(.transparentBody::before) {
+    display: none;
+}
+:global(.transparentBody::after) {
+    display: none;
+}
+:global(.Group--ios.transparentBody:after) {
+    height: 0;
+}
+
+.CalendarBlock {
+    display: flex;
+    justify-content: center;
+}
+
+body .p-datepicker table td {
+    padding: 1vw!important;
+}
+
+body .p-datepicker table td > span {
+    padding: 2.5vw!important;
+}
+
+body .p-datepicker table td.p-datepicker-today > span {
+    background-color: var(--button_secondary_background)!important;
+}
+
+body .p-datepicker table td > span.p-highlight {
+    background-color: var(--button_commerce_background)!important;
+}
+
+body .p-datepicker {
+    border: none!important;
+}
+
+* {
+  /*  --button_primary_background: #662f34;
+    --header_background: #662f34;
+    --header_alternate_background: #662f34;
+    --tabbar_active_icon: #ffffff;
+    --tabbar_inactive_icon: #ccc;*/
+    -webkit-user-select: none!important;
+    -moz-user-select: none!important;
+    -ms-user-select: none!important;
+    user-select: none!important
+}
+#no_part {
+    --button_secondary_background: rgb(255, 255, 255);
+    --button_secondary_foreground: rgb(0, 0, 0);
+      border-radius: 30px;
+}
+.Header__content {
+white-space: normal;
+user-select: none;
+}
+#desk {
+    color: #7f7f7f
+}
+.bold {
+    color: black;
+    font-weight: 550;
+ }
+.bold_White {
+     color: white;
+     font-weight: 550;
+  }
+#part {
+      border-radius: 30px;
+}
+input, textarea, select {
+    user-select: auto!important;
+}
+#link {
+    --accent: #fff!important;
+}
+
+.onSelected {
+    user-select: auto!important;
+}
+
+[role="button"]:not([disabled]),
+.Quote_Action svg,
+.TabbarItem {
+    cursor: pointer;
+}
+
+.DistrictList {
+    padding: 0 12px;
+}
+
+.DistrictBox {
+    background: 'linear-gradient(135deg, #f24973 0%, #3948e6 100%)';
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    color: var(--white);
+}
+.DistrictImg {
+    background: 'linear-gradient(135deg, #f24973 0%, #3948e6 100%)';
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    color: var(--white);
+}
+.DistrictBox::after {
+    filter: blur(30px);
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.63) 50%, rgba(255, 255, 255, 0.5) 100%);
+
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    opacity: .5;
+    z-index: 1;
+}
+
+.DistrictBox .DistrictName {
+    padding: 0;
+    font-size: 1.5em;
+    z-index: 2;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
+}
+.DistrictImg .DistrictName {
+    padding: 0;
+    font-size: 1.5em;
+    z-index: 2;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
+}
+.DistrictBox .DistrictMore {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 2;
+}
+.DistrictBox .DistrictAction {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    z-index: 2;
+}
+.DistrictBox .DistrictAction .DistrictMembers {
+    flex: 1;
+}
+.onboarding {
+  height: 84vh;
+  padding-top: 1vh;
+  width: 100%;
+  display: flex !important;
+  outline: none !important;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  white-space: pre-line
+}
+
+.image {
+  width: 30vh;
+  /*height: 100%;*/
+}
+
+.title {
+  font-family: "TT Norms";
+  font-weight: bold;
+  padding: 5vh 0 2vh 0;
+  font-size: 25px;
+  line-height: 1.2;
+  color: rgb(0, 0, 0);
+}
+
+.subtitle {
+  font-family: "TT Norms";
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 1.2;
+  color: rgb(0, 0, 0);
+}
+
+.button_next {
+  bottom: 1vh;
+  position: fixed;
+}
+
+.button_Panel {
+  width: 90vw !important;
+  justify-content: center;
+}
+
+.dots {
+  display: inline-flex;
+  align-items: center;
+  position: fixed;
+  right: 0px;
+  padding: 4vh 0;
+  bottom: 0;
+  justify-content: center;
+  left: 0;
+}
+
+.dot {
+  background-color: #fff;
+  margin: 0 4px;
+  border-radius: 30px;
+}
