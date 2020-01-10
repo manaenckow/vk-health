@@ -39,7 +39,7 @@ class Home extends Component {
                             districts={ this.props.districts }
                             setParentState={ setParentState }
                         />
-                        <Footer>version 3</Footer>
+                        <Footer>version 4</Footer>
                 	{this.props.state.snackbar}
             </Panel>
         );
