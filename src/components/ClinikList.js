@@ -42,11 +42,15 @@ class ClinikList extends Component {
                                 <Group style={{ marginTop: 10 }} key={index} title={clinik.lpuFullName}>
                                 <List>
                                   <Cell
-                                      onClick={() => connect.send("VKWebAppCopyText", {text: clinik.address.split(',').splice(1) })}
+                                      onClick={() => {
+                                        let text = clinik.address.split(',').splice(1).join(',');
+                                        connect.send("VKWebAppCopyText", { text: text });
+                                        console.log(text)
+                                      }}
                                       multiline
                                     >
                                   <InfoRow title={ getMessage('adress') }>
-                                    {clinik.address.split(',').splice(1)}
+                                    {clinik.address.split(',').splice(1).join(',')}
                                   </InfoRow>
                                   </Cell>
                                   {/*
