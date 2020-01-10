@@ -45,7 +45,6 @@ class ClinikList extends Component {
                                       onClick={() => {
                                         let text = clinik.address.split(',').splice(1).join(',');
                                         connect.send("VKWebAppCopyText", { text: text });
-                                        console.log(text)
                                       }}
                                       multiline
                                     >

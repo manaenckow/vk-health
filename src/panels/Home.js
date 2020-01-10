@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Panel, PanelHeader, /* HeaderButton */} from '@vkontakte/vkui';
+import { Panel, PanelHeader, Footer /* HeaderButton */} from '@vkontakte/vkui';
 
 //import connect from '@vkontakte/vk-connect';
 import { getMessage } from '../js/helpers';
@@ -39,6 +39,7 @@ class Home extends Component {
                             districts={ this.props.districts }
                             setParentState={ setParentState }
                         />
+                        <Footer>ver 1</Footer>
                 	{this.props.state.snackbar}
             </Panel>
         );

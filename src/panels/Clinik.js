@@ -67,6 +67,7 @@ class Clinik extends Component {
                    }
                     </FormLayout>
                     </Group>
+                  {state.snackbar}
             </Panel>
         );
     }
