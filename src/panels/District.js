@@ -41,6 +41,7 @@ class District extends Component {
                     cliniks={ this.props.state.cliniks }
                     setParentState={ setParentState }
                     />
+                    {this.props.state.snackbar}
             </Panel>
         );
     }
