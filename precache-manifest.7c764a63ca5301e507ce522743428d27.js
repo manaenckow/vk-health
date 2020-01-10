@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "2bd3fe44e57fff8fa3d5",
+    "revision": "51c078abb268fb5a593f",
     "url": "/vk-health/static/css/main.f41b8c42.chunk.css"
   },
   {
-    "revision": "2bd3fe44e57fff8fa3d5",
-    "url": "/vk-health/static/js/main.8e0efbf2.chunk.js"
+    "revision": "51c078abb268fb5a593f",
+    "url": "/vk-health/static/js/main.23b7d153.chunk.js"
   },
   {
     "revision": "9d5325d23fad0733ee41",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/vk-health/static/js/2.ec4201c0.chunk.js"
   },
   {
-    "revision": "64a0a0b526133609268d6d1d8107db27",
+    "revision": "5d73ef7543d678ae1871316d8abb07ce",
     "url": "/vk-health/index.html"
   }
 ];
