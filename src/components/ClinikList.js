@@ -61,7 +61,7 @@ class ClinikList extends Component {
                                   */}
                                   <Cell multiline>
                                     <InfoRow title={ getMessage('phone') }>
-                                      <Link href={clinik.phone.startsWith('(') ? `tel:+7${clinik.phone}` : `tel:${clinik.phone}`}>
+                                      <Link target='_blank' href={clinik.phone.startsWith('(') ? `tel:+7${clinik.phone}` : `tel:${clinik.phone}`}>
                                       {clinik.phone.startsWith('(') ? `+7 ${clinik.phone}` : clinik.phone}
                                       </Link>
                                     </InfoRow>
@@ -70,7 +70,7 @@ class ClinikList extends Component {
                                     clinik.email !== null &&
                                     <Cell multiline>
                                     <InfoRow title={ getMessage('email') }>
-                                    <Link href={`mailto:${clinik.email}`}>
+                                    <Link target='_blank' href={`mailto:${clinik.email}`}>
                                       {clinik.email}
                                       </Link>
                                     </InfoRow>
