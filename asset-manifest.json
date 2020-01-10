@@ -1,14 +1,14 @@
 {
   "main.css": "/vk-health/static/css/main.f41b8c42.chunk.css",
-  "main.js": "/vk-health/static/js/main.97127f19.chunk.js",
-  "main.js.map": "/vk-health/static/js/main.97127f19.chunk.js.map",
+  "main.js": "/vk-health/static/js/main.ac02420e.chunk.js",
+  "main.js.map": "/vk-health/static/js/main.ac02420e.chunk.js.map",
   "runtime~main.js": "/vk-health/static/js/runtime~main.2561c943.js",
   "runtime~main.js.map": "/vk-health/static/js/runtime~main.2561c943.js.map",
   "static/css/2.d6e1e4a5.chunk.css": "/vk-health/static/css/2.d6e1e4a5.chunk.css",
   "static/js/2.ec4201c0.chunk.js": "/vk-health/static/js/2.ec4201c0.chunk.js",
   "static/js/2.ec4201c0.chunk.js.map": "/vk-health/static/js/2.ec4201c0.chunk.js.map",
   "index.html": "/vk-health/index.html",
-  "precache-manifest.4763c847491d263005b9e3ba514cb652.js": "/vk-health/precache-manifest.4763c847491d263005b9e3ba514cb652.js",
+  "precache-manifest.48463666b69f5da5e0e09f4b8cc0d0e3.js": "/vk-health/precache-manifest.48463666b69f5da5e0e09f4b8cc0d0e3.js",
   "service-worker.js": "/vk-health/service-worker.js",
   "static/css/2.d6e1e4a5.chunk.css.map": "/vk-health/static/css/2.d6e1e4a5.chunk.css.map",
   "static/css/main.f41b8c42.chunk.css.map": "/vk-health/static/css/main.f41b8c42.chunk.css.map"
