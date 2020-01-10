@@ -2,7 +2,6 @@ export const messages = {
     not_class_api: "Проблема с API",
     server_offline: "Сервер не отвечает",
     no_internet: "Ожидание интернет-соединения",
-    bad_phone: "Сервис поддерживает версию Android 5.1 и выше.",
     wtf: "Повторите попытку позднее",
     oops: "Упс...",
 
