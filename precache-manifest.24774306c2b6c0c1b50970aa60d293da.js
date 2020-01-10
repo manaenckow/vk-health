@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/vk-health/static/js/2.ec4201c0.chunk.js"
   },
   {
-    "revision": "9ab86d51d75a73cf7b29489aa26edd54",
+    "revision": "cf49a272b24baf12c6ebaf584883e1db",
     "url": "/vk-health/index.html"
   }
 ];
